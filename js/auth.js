@@ -55,5 +55,5 @@ authForm.addEventListener('submit', async (e) => {
 
 function showMessage(text, bootstrapColorClass){
     messageDiv.innerText = text
-    messageDiv.className = 'text-center small mt-3 fw-medium ${bootstrapColorClass}'
+    messageDiv.className = `text-center small mt-3 fw-medium ${bootstrapColorClass}`
 }
